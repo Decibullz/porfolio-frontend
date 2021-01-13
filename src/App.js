@@ -1,22 +1,18 @@
 
 import './App.css';
-import DateTime from './components/DateTime/DateTime';
-import Contact from './components/Contact/Contact';
-import Pong from './components/PythonGames/Pong';
-import KnowledgeCatcher from './components/PythonGames/KnowledgeCatcher';
-import SpaceIntruders from './components/PythonGames/SpaceIntruders';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
+
 
 
 function App() {
   return (
     <div className="App">
-      <DateTime/>
-      <div className="python-arcade">
-      <Pong/>
-      <KnowledgeCatcher/>
-      <SpaceIntruders/>
-      </div>
-      <Contact/>
+      <Header/>
+      <Main/>
+      <Footer/>
+
     </div>
   );
 }
