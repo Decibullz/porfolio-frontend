@@ -1,0 +1,47 @@
+.hero-image{
+    position: relative;
+}
+
+.hero-text-top {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: goldenrod
+}
+.hero-text-bottom {
+    text-align: center;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#23293ab3;
+    color: rgb(244, 217, 153)
+}
+
+.hero-text-mid {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#23293ab3;
+    color: rgb(244, 217, 153)
+}
+img{
+    max-width: 99vw;
+}
+
+.prof > img{
+    width: 300px;
+    border-radius: 25% ;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+a{
+    color: rgb(244, 167, 63);
+}

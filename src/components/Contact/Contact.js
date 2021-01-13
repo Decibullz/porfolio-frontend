@@ -53,7 +53,7 @@ const Contact = (props)=>{
                         <input 
                         type='text'
                         name='email'
-                        placeholder='Email Address'
+                        placeholder='Your Email Address'
                         onChange={handleEmailChange}
                         value={emailState.email}
                         required
