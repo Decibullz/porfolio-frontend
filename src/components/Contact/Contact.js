@@ -30,14 +30,15 @@ const Contact = (props)=>{
     // fetch: 'http://localhost:3001/send'
     const submitEmail = async (e)=>{
         e.preventDefault()
-        console.log({emailState, message})
         await fetch('https://cody-snell-mailer.herokuapp.com/send', {
             method: "POST",
             headers: {
                 'Content-type': 'application/json'
             },
             body: JSON.stringify({emailState, message})
-        }).then(res => res.json())
+        }).then(res => res.json()).then(setMessage({
+            message:''
+        })).then (window.confirm('Your Email has been sent!\nThank you for your interest!'))
     }
     
 
