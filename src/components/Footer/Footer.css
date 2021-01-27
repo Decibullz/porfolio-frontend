@@ -1,0 +1,8 @@
+#socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    margin-left: 15px;
+}
