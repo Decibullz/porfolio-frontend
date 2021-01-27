@@ -17,8 +17,10 @@ const Header = ()=>{
                 <h3>Call Me: <a href="tel:361-777-6567">361-777-6567</a></h3>
             </div>
             <div className="hero-text-bottom">
-                <h5>Technologies I use</h5>
-                <h6>| HTML5 | CSS3 | Javascript | jQuery | Git | AJAX | Node.js | Express | MongoDb | Mongoose | Ruby on Rails | Bootstrap | React.js | Heroku | Postman | PostgreSQL | Python |</h6>
+                <h2>Technologies I use</h2>
+                <h3>
+                    <i class="fab fa-html5"></i> HTML5 | <i class="fab fa-css3-alt"></i> CSS3 | <i class="fab fa-js-square"></i> Javascript | <i class="fab fa-react"></i> React.js | <i class="fab fa-node"></i> Node.js | <i class="fab fa-python"></i> Python | <i class="fas fa-gem"></i> Ruby on Rails 
+                </h3>
             </div>
         </div>
     )
