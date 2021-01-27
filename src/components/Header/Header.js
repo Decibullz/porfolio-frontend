@@ -8,7 +8,7 @@ const Header = ()=>{
                 <h1>Software Developer Cody Snell</h1>
                 </div>
             <div className="prof">
-            <img src="/images/prof.jpg" alt="self"/>
+            <img src="/images/prof.jpeg" alt="self"/>
             </div>
             <div className="hero-text-mid">
                 <h3>Fullstack Developer based in Victoria, Tx.</h3>
