@@ -1,0 +1,12 @@
+.site{
+    display: flex;
+    justify-content: space-around;
+}
+
+.siteImage{
+    width: 500px;
+}
+
+.desc{
+    width: 50%;
+}
