@@ -45,8 +45,12 @@ img{
 a{
     color: rgb(244, 167, 63);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     h1,h2,h3{
         font-size: 10px;
     }
+    .hero-text-bottom {
+        width: 75%;
+    }
+
   }

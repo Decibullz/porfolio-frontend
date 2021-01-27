@@ -33,7 +33,6 @@ textarea{
 legend{
     background-color: #282c34;
     color: white;
-    width: 150px;
     border-radius: 5px;
     width: 300px;
     margin-top: -18px;
@@ -57,3 +56,30 @@ button:hover{
 .fa-envelope-square,.fa-pen-square{
   color: goldenrod
 }
+
+@media only screen and (max-width: 800px) {
+    .fieldset{
+        height: 175px;
+        width: 195px;
+        margin-top: 9px;
+    }
+    
+    input{
+        margin-bottom: 2px;
+    }
+    input, textarea{
+        width: 155px;
+    }
+    textarea{
+        max-height: 65px;
+        min-height: 65px;
+    }
+    
+    legend{
+        background-color: #282c34;
+        color: white;
+        border-radius: 5px;
+        width: 150px;
+        margin-top: -18px;
+    }
+  }
