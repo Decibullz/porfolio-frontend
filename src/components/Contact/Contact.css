@@ -60,7 +60,7 @@ button:hover{
 @media only screen and (max-width: 800px) {
     .fieldset{
         height: 175px;
-        width: 195px;
+        width: 250px;
         margin-top: 9px;
     }
     
@@ -68,7 +68,7 @@ button:hover{
         margin-bottom: 2px;
     }
     input, textarea{
-        width: 155px;
+        width: 225px;
     }
     textarea{
         max-height: 65px;
@@ -79,7 +79,7 @@ button:hover{
         background-color: #282c34;
         color: white;
         border-radius: 5px;
-        width: 150px;
+        width: 225px;
         margin-top: -18px;
     }
   }
