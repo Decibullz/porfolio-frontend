@@ -2,11 +2,24 @@
     display: flex;
     justify-content: space-around;
 }
-
+.siteName{
+    color:goldenrod
+}
 .siteImage{
     width: 500px;
 }
 
 .desc{
     width: 50%;
+}
+
+p{
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+li{
+    font-size: 28px;
 }
