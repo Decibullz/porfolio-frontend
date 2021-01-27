@@ -10,11 +10,11 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <>
+      {/* <>
       <h1> Currently under construction.</h1>
       <h3> Please leave a message below</h3>
-      </>
-      {/* <Main/> */}
+      </> */}
+      <Main/>
       <Footer/>
 
     </div>
