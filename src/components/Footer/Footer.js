@@ -1,4 +1,6 @@
 import Contact from "../Contact/Contact"
+import './Footer.css'
+
 
 const Footer = ()=>{
     return(
@@ -14,7 +16,7 @@ const Footer = ()=>{
                     <h1 className="icons"><a href="https://github.com/Decibullz" target='_blank' rel="noreferrer"><i className="fab fa-github-square fa-lg"></i></a></h1>
                 </div>
             </div>
-            <footer className="Footer">Copyright &copy; Codys's Portfolio {new Date().getFullYear()} All Rights Reserved</footer>
+            <footer className="Footer">Copyright&copy; Cody Snell {new Date().getFullYear()} All Rights Reserved</footer>
         </div>
         
     )}
