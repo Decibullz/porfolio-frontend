@@ -23,3 +23,22 @@ ul {
 li{
     font-size: 28px;
 }
+
+@media only screen and (max-width: 800px) {
+    .site{
+        display: flex;
+        justify-content: center;
+    }
+    .siteImage{
+        width: 250px;
+    }
+    .desc{
+        align-self: center;
+    }
+    p{
+        font-size: 8px;
+    }
+    li{
+        font-size: 8px;
+    }
+}
