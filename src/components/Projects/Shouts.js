@@ -13,7 +13,7 @@ function Shouts() {
                 </a>
                 <div className="desc">
                     <p>
-                        Full stack social media app built using:
+                        Full stack social media website built using:
                     </p>
                     <ul>
                         <li>React.js</li>
@@ -23,6 +23,12 @@ function Shouts() {
                     </ul>
                     <p>
                         With this website the user can signup and interact with any user on the platform.
+                        <br/>
+                        React powers the front end, Node/Express powers the back end.
+                        <br/>
+                        Website is hosted with Google firebase.
+                        <br/>
+                        <a target='_blank'rel="noreferrer" href="https://github.com/Decibullz/shouts-frontend">Github Repo</a>
                     </p>
                 </div>
             </div>

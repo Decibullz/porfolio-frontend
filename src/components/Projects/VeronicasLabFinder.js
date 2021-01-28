@@ -4,12 +4,30 @@ import './Projects.css'
 function VeronicasLabFinder() {
     return (
         <div>
-            <h4>Veronica's Lab Finder</h4>
+            <a href='https://veronicas-lab-finder.herokuapp.com/' target='_blank'rel="noreferrer">
+                <h1 className='siteName'>Veronica's Lab Finder</h1>
+            </a>
             <div className='site'>
                 <div className="desc">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tenetur maxime similique rerum error provident eum assumenda ipsum vero esse, magni deserunt, animi sapiente possimus aut nulla perferendis distinctio asperiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque debitis est eveniet quae consequatur culpa magnam neque voluptas explicabo molestias obcaecati, consectetur atque inventore molestiae? Ad ipsa accusantium est Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nesciunt iusto error. Perspiciatis aliquid vero necessitatibus, vel, doloribus qui, voluptatem recusandae blanditiis optio neque unde odio sapiente? Praesentium, illum asperiores.</p>
+                    <p>
+                        Lab Test finder website bult using: 
+                    </p>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Mongo DB</li>
+                    </ul>
+                    <p>
+                        With this website the user can search either by name or color for a multitude of lab tests, with results showing proper test tube color
+                        <br/>
+                        Node and Express power both front and back end.
+                        <br/>
+                        Webite is hosted with Heroku.
+                    <br/>
+                        <a target='_blank'rel="noreferrer" href="https://github.com/Decibullz/veronicas-lab-finder">Github Repo</a>
+                    </p>
                 </div>
-                <a>
+                <a href='https://veronicas-lab-finder.herokuapp.com/' target='_blank'rel="noreferrer">
                     <img className="siteImage" src="/images/veronicas.png" alt=""/>
                 </a>
             </div>
