@@ -10,7 +10,7 @@ const Header = ()=>{
                     <h2>Software Engineer</h2>
                     </div>
                 <div className="prof">
-                <img style={{width:'20%', height: '30%'}} src="/images/prof.png" alt="self"/>
+                <img style={{width:'15%', height: '38%'}} src="/images/prof.png" alt="self"/>
                 </div>
                 <div className="hero-text-mid">
                     <h3>Based in Victoria, Tx.</h3>
