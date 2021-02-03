@@ -6,8 +6,6 @@ const Footer = ()=>{
     return(
         <div id="footerDiv">
             <div >
-                <div id="tech">
-                </div>
                 <div id="form">
                     <Contact/>
                 </div>
