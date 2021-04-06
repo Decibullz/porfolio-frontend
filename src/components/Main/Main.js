@@ -1,23 +1,159 @@
-import BookIt from '../Projects/BookIt'
-import CouchCritic from '../Projects/CouchCritic'
-import Shouts from '../Projects/Shouts'
-import TeslaClone from '../Projects/TeslaClone'
-import VeronicasLabFinder from '../Projects/VeronicasLabFinder'
+import Project from '../Projects/Project.component'
 import Python from '../Python/Python'
-import './Main.css'
 
+import './Main.css'
+// eslint-disable-next-line
+{
+  /* 
+  Stubbed up project component
+  <Project
+  title=''
+  desc={<p> built using :</p>}
+  builtWith={
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        }
+  desc2={<p></p>}
+  image='/images/'
+  linkUrl=''
+  gitUrl=''
+  hostedBy=''
+  inverted
+  /> 
+
+*/
+}
 const Main = () => {
   return (
     <div className="projects">
-      <TeslaClone />
+      <Project
+        title="Tesla Homepage Clone"
+        desc={<p>Tesla's homepage built using :</p>}
+        builtWith={
+          <ul>
+            <li>React.js</li>
+            <li>Material UI</li>
+          </ul>
+        }
+        desc2={
+          <p>
+            This is a React clone of <a href="http://tesla.com"> Tesla's</a>{' '}
+            homepage.
+          </p>
+        }
+        image="/images/tesla-clone.png"
+        linkUrl="https://tesla-homepage-copy.herokuapp.com/"
+        gitUrl="https://github.com/Decibullz/tesla-clone"
+        hostedBy="Heroku"
+      />
       <hr />
-      <Shouts />
+      <Project
+        title="Shouts!"
+        desc={<p> Full stack social media website built using:</p>}
+        builtWith={
+          <ul>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Google Firebase</li>
+          </ul>
+        }
+        desc2={
+          <p>
+            With this website the user can signup and interact with any user on
+            the platform.
+            <br />
+            React powers the front end, Node/Express powers the back end.
+          </p>
+        }
+        image="/images/shouts.png"
+        linkUrl="'https://socialportfolio-155d8.web.app/' "
+        gitUrl="https://github.com/Decibullz/shouts-frontend"
+        hostedBy="Google Firebase"
+        inverted
+      />
       <hr />
-      <CouchCritic />
+      <Project
+        title="Couch Critic"
+        desc={<p>Full stack review website built using:</p>}
+        builtWith={
+          <ul>
+            <li>React.js</li>
+            <li>Ruby on Rails</li>
+          </ul>
+        }
+        desc2={
+          <p>
+            With this website the user can add reviews and rate their favorite
+            movies or TV shows.
+            <br />
+            React powers the front end, Ruby on rails powers the backend.
+            <br />
+          </p>
+        }
+        image="/images/couch-critic.png"
+        linkUrl="https://couch-critic.herokuapp.com/"
+        gitUrl="https://github.com/Decibullz/couch-critic-frontend"
+        hostedBy="Heroku"
+      />
       <hr />
-      <BookIt />
+      <Project
+        title="Book-It"
+        desc={<p>Full stack Book searching website built using:</p>}
+        builtWith={
+          <ul>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Mongo DB</li>
+            <li>New York Times API</li>
+            <li>Google books API</li>
+          </ul>
+        }
+        desc2={
+          <p>
+            With this website the user can signup and search books. The homepage
+            shows the top 15 NYT books with Amazon links to buy.
+            <br />
+            React powers the front end, Node/Express powers the back end.
+            <br />
+          </p>
+        }
+        image="/images/bookit.png"
+        linkUrl="https://blooming-cove-90440.herokuapp.com/"
+        gitUrl="https://github.com/Decibullz/Book-it-frontend"
+        hostedBy="Heroku"
+        inverted
+      />
       <hr />
-      <VeronicasLabFinder />
+      <Project
+        title="Veronica's Lab Finder"
+        desc={<p>Lab Test finder website built using: </p>}
+        builtWith={
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Mongo DB</li>
+          </ul>
+        }
+        desc2={
+          <p>
+            {' '}
+            With this website the user can search either by name or color for a
+            multitude of lab tests, with results showing proper test tube color
+            <br />
+            Node and Express power both front and back end.
+            <br />
+          </p>
+        }
+        image="/images/veronicas.png"
+        linkUrl="https://veronicas-lab-finder.herokuapp.com/"
+        gitUrl="https://github.com/Decibullz/veronicas-lab-finder"
+        hostedBy="Heroku"
+      />
+
       <hr />
       <Python />
       <hr />
