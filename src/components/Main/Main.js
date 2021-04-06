@@ -1,4 +1,4 @@
-import Project from '../Projects/Project.component'
+import Project from '../Project/Project.component'
 import Python from '../Python/Python'
 
 import './Main.css'
