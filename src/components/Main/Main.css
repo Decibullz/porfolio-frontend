@@ -3,5 +3,54 @@
     align-items: center;
     justify-content: space-around;
 }
+.site {
+    display: flex;
+    justify-content: space-around;
+}
 
+.siteName {
+    color: goldenrod
+}
 
+.siteImage {
+    width: 500px;
+}
+
+.desc {
+    width: 50%;
+}
+
+p {
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 800px) {
+    .site {
+        display: flex;
+        justify-content: center;
+    }
+
+    .siteImage {
+        width: 250px;
+    }
+
+    .desc {
+        align-self: center;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    li {
+        font-size: 8px;
+    }
+}
