@@ -98,7 +98,7 @@ const Main = () => {
           </p>
         }
         image="/images/shouts.png"
-        linkUrl="'https://socialportfolio-155d8.web.app/' "
+        linkUrl="https://socialportfolio-155d8.web.app/"
         gitUrl="https://github.com/Decibullz/shouts-frontend"
         hostedBy="Google Firebase"
         inverted
