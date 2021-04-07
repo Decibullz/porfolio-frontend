@@ -29,18 +29,47 @@ const Main = () => {
   return (
     <div className="projects">
       <Project
+        title="CRWN CLOTHING"
+        desc={<p> Fully Functional E-commerce website built using:</p>}
+        builtWith={
+          <ul>
+            <li>React.JS</li>
+            <li>Google Firebase</li>
+            <li>Google OAuth</li>
+            <li>Redux</li>
+            <li>Stripe's Payment API</li>
+          </ul>
+        }
+        desc2={
+          <p>
+            This E-commerce website is my current project that is still in
+            development.
+            <br />
+            Users can sign in with email/password or google, browse through
+            products, shop and checkout using the fake CC numbers listed on the
+            checkout page.
+          </p>
+        }
+        image="/images/crwn-clothing.png"
+        linkUrl="https://cs-crwn-clothing.herokuapp.com/"
+        gitUrl="https://github.com/Decibullz/crown-clothing"
+        hostedBy="Heroku"
+        inverted
+      />
+      <hr />
+      <Project
         title="Tesla Homepage Clone"
         desc={<p>Tesla's homepage built using :</p>}
         builtWith={
           <ul>
-            <li>React.js</li>
+            <li>React.JS</li>
             <li>Material UI</li>
           </ul>
         }
         desc2={
           <p>
-            This is a React clone of <a href="http://tesla.com"> Tesla's</a>{' '}
-            homepage.
+            This is a React.JS front-end only clone of{' '}
+            <a href="http://tesla.com"> Tesla's</a> homepage.
           </p>
         }
         image="/images/tesla-clone.png"
@@ -54,16 +83,16 @@ const Main = () => {
         desc={<p> Full stack social media website built using:</p>}
         builtWith={
           <ul>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
+            <li>React.JS</li>
+            <li>Node.JS</li>
+            <li>Express.JS</li>
             <li>Google Firebase</li>
           </ul>
         }
         desc2={
           <p>
-            With this website the user can signup and interact with any user on
-            the platform.
+            This is a massive full stack social media website where all
+            registered users can interact with each other.
             <br />
             React powers the front end, Node/Express powers the back end.
           </p>
@@ -80,7 +109,7 @@ const Main = () => {
         desc={<p>Full stack review website built using:</p>}
         builtWith={
           <ul>
-            <li>React.js</li>
+            <li>React.JS</li>
             <li>Ruby on Rails</li>
           </ul>
         }
@@ -104,9 +133,9 @@ const Main = () => {
         desc={<p>Full stack Book searching website built using:</p>}
         builtWith={
           <ul>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
+            <li>React.JS</li>
+            <li>Node.JS</li>
+            <li>Express.JS</li>
             <li>Mongo DB</li>
             <li>New York Times API</li>
             <li>Google books API</li>
@@ -133,8 +162,8 @@ const Main = () => {
         desc={<p>Lab Test finder website built using: </p>}
         builtWith={
           <ul>
-            <li>Node.js</li>
-            <li>Express.js</li>
+            <li>Node.JS</li>
+            <li>Express.JS</li>
             <li>Mongo DB</li>
           </ul>
         }
