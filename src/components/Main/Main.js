@@ -30,7 +30,7 @@ const Main = () => {
     <div className="projects">
       <Project
         title="CRWN CLOTHING"
-        desc={<p> Fully Functional E-commerce website built using:</p>}
+        desc="Fully Functional E-commerce website built using:"
         builtWith={
           <ul>
             <li>React.JS</li>
@@ -41,14 +41,7 @@ const Main = () => {
           </ul>
         }
         desc2={
-          <p>
-            This E-commerce website is my current project that is still in
-            development.
-            <br />
-            Users can sign in with email/password or google, browse through
-            products, shop and checkout using the fake CC numbers listed on the
-            checkout page.
-          </p>
+          'This E-commerce website is my current project that is still in development. \n Users can sign in with email/password or google, browse through products, shop and checkout using the fake CC numbers listed on the checkout page.'
         }
         image="/images/crwn-clothing.png"
         linkUrl="https://cs-crwn-clothing.herokuapp.com/"
@@ -59,7 +52,7 @@ const Main = () => {
       <hr />
       <Project
         title="Tesla Homepage Clone"
-        desc={<p>Tesla's homepage built using :</p>}
+        desc="Tesla's homepage built using :"
         builtWith={
           <ul>
             <li>React.JS</li>
@@ -67,10 +60,10 @@ const Main = () => {
           </ul>
         }
         desc2={
-          <p>
+          <>
             This is a React.JS front-end only clone of{' '}
             <a href="http://tesla.com"> Tesla's</a> homepage.
-          </p>
+          </>
         }
         image="/images/tesla-clone.png"
         linkUrl="https://tesla-homepage-copy.herokuapp.com/"
@@ -80,7 +73,7 @@ const Main = () => {
       <hr />
       <Project
         title="Shouts!"
-        desc={<p> Full stack social media website built using:</p>}
+        desc="Full stack social media website built using:"
         builtWith={
           <ul>
             <li>React.JS</li>
@@ -90,12 +83,7 @@ const Main = () => {
           </ul>
         }
         desc2={
-          <p>
-            This is a massive full stack social media website where all
-            registered users can interact with each other.
-            <br />
-            React powers the front end, Node/Express powers the back end.
-          </p>
+          'This is a massive full stack social media website where all registered users can interact with each other. \n React powers the front end, Node/Express powers the back end.'
         }
         image="/images/shouts.png"
         linkUrl="https://socialportfolio-155d8.web.app/"
@@ -106,7 +94,7 @@ const Main = () => {
       <hr />
       <Project
         title="Couch Critic"
-        desc={<p>Full stack review website built using:</p>}
+        desc="Full stack review website built using:"
         builtWith={
           <ul>
             <li>React.JS</li>
@@ -114,13 +102,7 @@ const Main = () => {
           </ul>
         }
         desc2={
-          <p>
-            With this website the user can add reviews and rate their favorite
-            movies or TV shows.
-            <br />
-            React powers the front end, Ruby on rails powers the backend.
-            <br />
-          </p>
+          'With this website the user can add reviews and rate their favorite movies or TV shows. \n React powers the front end, Ruby on rails powers the backend.'
         }
         image="/images/couch-critic.png"
         linkUrl="https://couch-critic.herokuapp.com/"
@@ -130,7 +112,7 @@ const Main = () => {
       <hr />
       <Project
         title="Book-It"
-        desc={<p>Full stack Book searching website built using:</p>}
+        desc="Full stack Book searching website built using:"
         builtWith={
           <ul>
             <li>React.JS</li>
@@ -142,13 +124,7 @@ const Main = () => {
           </ul>
         }
         desc2={
-          <p>
-            With this website the user can signup and search books. The homepage
-            shows the top 15 NYT books with Amazon links to buy.
-            <br />
-            React powers the front end, Node/Express powers the back end.
-            <br />
-          </p>
+          'With this website the user can signup and search books. The homepage shows the top 15 NYT books with Amazon links to buy. \n React powers the front end, Node/Express powers the back end.'
         }
         image="/images/bookit.png"
         linkUrl="https://blooming-cove-90440.herokuapp.com/"
@@ -159,7 +135,7 @@ const Main = () => {
       <hr />
       <Project
         title="Veronica's Lab Finder"
-        desc={<p>Lab Test finder website built using: </p>}
+        desc="Lab Test finder website built using:"
         builtWith={
           <ul>
             <li>Node.JS</li>
@@ -168,14 +144,7 @@ const Main = () => {
           </ul>
         }
         desc2={
-          <p>
-            {' '}
-            With this website the user can search either by name or color for a
-            multitude of lab tests, with results showing proper test tube color
-            <br />
-            Node and Express power both front and back end.
-            <br />
-          </p>
+          'With this website the user can search either by name or color for a multitude of lab tests, with results showing proper test tube color \n Node and Express power the front end with MongoDB serving the database'
         }
         image="/images/veronicas.png"
         linkUrl="https://veronicas-lab-finder.herokuapp.com/"

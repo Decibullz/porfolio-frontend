@@ -18,11 +18,14 @@ const Project = ({
       </a>
       <div className="site">
         <div className="desc">
+          <p>{desc}</p>
+          <ul>{builtWith}</ul>
           <p>
-            {desc}
-            <ul>{builtWith}</ul>
+            <br />
             {desc2}
-            <p>Website is hosted with {hostedBy}</p>
+          </p>
+          <p>
+            Website is hosted with {hostedBy} <br />
             <a target="_blank" rel="noreferrer" href={gitUrl}>
               Github Repo
             </a>
@@ -43,11 +46,14 @@ const Project = ({
           <img className="siteImage" src={image} alt="" />
         </a>
         <div className="desc">
+          <p>{desc}</p>
+          <ul>{builtWith}</ul>
           <p>
-            {desc}
-            <ul>{builtWith}</ul>
+            <br />
             {desc2}
-            <p>Website is hosted with {hostedBy}</p>
+          </p>
+          <p>
+            Website is hosted with {hostedBy} <br />
             <a target="_blank" rel="noreferrer" href={gitUrl}>
               Github Repo
             </a>
