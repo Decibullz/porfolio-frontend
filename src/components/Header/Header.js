@@ -28,10 +28,11 @@ const Header = () => {
         </div>
         <div className="hero-text-bottom">
           <h3>
-            <i class="fab fa-html5"></i> HTML5 | <i class="fab fa-css3-alt"></i>{' '}
-            CSS3 | <i class="fab fa-js-square"></i> Javascript |{' '}
-            <i class="fab fa-react"></i> React.js | <i class="fab fa-node"></i>{' '}
-            Node.js
+            <i className="fab fa-html5"></i> HTML5 |{' '}
+            <i className="fab fa-css3-alt"></i> CSS3 |{' '}
+            <i className="fab fa-js-square"></i> Javascript |{' '}
+            <i className="fab fa-react"></i> React.js |{' '}
+            <i className="fab fa-node"></i> Node.js
           </h3>
         </div>
       </div>
