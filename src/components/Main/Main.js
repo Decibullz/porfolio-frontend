@@ -22,6 +22,7 @@ import './Main.css'
   hostedBy=''
   inverted
   /> 
+  <hr/>
 
 */
 }
@@ -29,19 +30,43 @@ const Main = () => {
   return (
     <div className="projects">
       <Project
+        title="Linkedin Clone"
+        desc={<p>React Linkedin Clone built using :</p>}
+        builtWith={
+          <ul>
+            <li>React.JS</li>
+            <li>Redux</li>
+            <li>Google Firebase</li>
+            <li>Styled Components</li>
+          </ul>
+        }
+        desc2={
+          <p>
+            With this mobile-friendly clone of Linkedin users can sign in using
+            google OAuth integration and posts articles. The feed loads in real
+            time for all users.
+          </p>
+        }
+        image="/images/linkedin-clone.png"
+        linkUrl="https://linkedin-clone-6de76.firebaseapp.com/"
+        gitUrl="https://github.com/Decibullz/LinkedIn-Clone"
+        hostedBy="Google Firebase"
+      />
+      <hr />
+      <Project
         title="CRWN CLOTHING"
         desc="Fully Functional E-commerce website built using:"
         builtWith={
           <ul>
             <li>React.JS</li>
+            <li>Redux</li>
             <li>Google Firebase</li>
             <li>Google OAuth</li>
-            <li>Redux</li>
             <li>Stripe's Payment API</li>
           </ul>
         }
         desc2={
-          'This E-commerce website is my current project that is still in development. \n Users can sign in with email/password or google, browse through products, shop and checkout using the fake CC numbers listed on the checkout page.'
+          'With this full E-commerce site users can sign in with email/password or google, browse through products, shop and checkout using the fake CC numbers listed on the checkout page.'
         }
         image="/images/crwn-clothing.png"
         linkUrl="https://cs-crwn-clothing.herokuapp.com/"
@@ -51,7 +76,7 @@ const Main = () => {
       />
       <hr />
       <Project
-        title="Tesla Homepage Clone"
+        title="React Tesla Homepage Clone"
         desc="Tesla's homepage built using :"
         builtWith={
           <ul>
@@ -77,6 +102,7 @@ const Main = () => {
         builtWith={
           <ul>
             <li>React.JS</li>
+            <li>Redux</li>
             <li>Node.JS</li>
             <li>Express.JS</li>
             <li>Google Firebase</li>
@@ -99,6 +125,7 @@ const Main = () => {
           <ul>
             <li>React.JS</li>
             <li>Ruby on Rails</li>
+            <li>PostgreSql</li>
           </ul>
         }
         desc2={
