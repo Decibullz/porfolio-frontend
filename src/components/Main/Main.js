@@ -112,7 +112,7 @@ const Main = () => {
           'This is a massive full stack social media website where all registered users can interact with each other. \n React powers the front end, Node/Express powers the back end.'
         }
         image="/images/shouts.png"
-        linkUrl="https://socialportfolio-155d8.web.app/"
+        linkUrl="https://socialportfolio-155d8.web.app"
         gitUrl="https://github.com/Decibullz/shouts-frontend"
         hostedBy="Google Firebase"
         inverted
