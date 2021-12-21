@@ -7,7 +7,7 @@ const Header = () => {
       <div className="header">
         <div className="hero-text-top">
           <h1>Cody Snell</h1>
-          <h2>Software Engineer</h2>
+          <h2>Software Engineer / Website Builder</h2>
         </div>
         <div className="prof">
           <img
