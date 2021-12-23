@@ -19,6 +19,8 @@
 
 .desc {
     background: rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 25px goldenrod;
+    border-radius: 15px;
     width: 50%;
 }
 
