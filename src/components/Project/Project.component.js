@@ -20,10 +20,7 @@ const Project = ({
         <div className="desc">
           <p>{desc}</p>
           <ul>{builtWith}</ul>
-          <p>
-            <br />
-            {desc2}
-          </p>
+          <p>{desc2}</p>
           <p>
             Website is hosted with {hostedBy} <br />
             <a target="_blank" rel="noreferrer" href={gitUrl}>
@@ -48,10 +45,7 @@ const Project = ({
         <div className="desc">
           <p>{desc}</p>
           <ul>{builtWith}</ul>
-          <p>
-            <br />
-            {desc2}
-          </p>
+          <p>{desc2}</p>
           <p>
             Website is hosted with {hostedBy} <br />
             <a target="_blank" rel="noreferrer" href={gitUrl}>
