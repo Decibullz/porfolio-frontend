@@ -8,7 +8,7 @@ import './Main.css'
   Stubbed up project component
   <Project
   title=''
-  desc={<p> built using :</p>}
+  desc= 'built using :'
   builtWith={
           <ul>
             <li></li>
@@ -31,7 +31,7 @@ const Main = () => {
     <div className="projects">
       <Project
         title="Linkedin Clone"
-        desc={<p>React Linkedin Clone built using :</p>}
+        desc="React Linkedin Clone built using :"
         builtWith={
           <ul>
             <li>React.JS</li>
@@ -41,11 +41,7 @@ const Main = () => {
           </ul>
         }
         desc2={
-          <p>
-            With this mobile-friendly clone of Linkedin users can sign in using
-            google OAuth integration and posts articles. The feed loads in real
-            time for all users.
-          </p>
+          'With this mobile-friendly clone of Linkedin users can sign in using google OAuth integration and posts articles. The feed loads in real time for all users.'
         }
         image="/images/linkedin-clone.png"
         linkUrl="https://linkedin-clone-6de76.firebaseapp.com/"
@@ -86,8 +82,8 @@ const Main = () => {
         }
         desc2={
           <>
-            This is a React.JS front-end only clone of{' '}
-            <a href="http://tesla.com"> Tesla's</a> homepage.
+            This is a clone of <a href="http://tesla.com"> Tesla's</a> homepage
+            built using only React.
           </>
         }
         image="/images/tesla-clone.png"
