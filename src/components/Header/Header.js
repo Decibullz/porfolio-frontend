@@ -20,7 +20,9 @@ const Header = () => {
           <h3>Available for all your website needs.</h3>
           <h3>
             Email Me:{' '}
-            <a href="mailto:codyjsnell@yahoo.com">Codyjsnell@yahoo.com</a>
+            <a href="mailto:codyjsnell@yahoo.com" target="_blank">
+              Codyjsnell@yahoo.com
+            </a>
           </h3>
           <h3>
             Call/Text Me: <a href="tel:361-777-6567">361-777-6567</a>
