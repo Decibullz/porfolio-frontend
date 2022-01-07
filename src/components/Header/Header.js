@@ -12,7 +12,7 @@ const Header = () => {
         <div className="prof">
           <img
             style={{ width: '15%', height: '38%' }}
-            src="/images/prof.JPG"
+            src="/images/prof.jpg"
             alt="self"
           />
         </div>

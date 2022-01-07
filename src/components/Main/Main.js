@@ -43,7 +43,7 @@ const Main = () => {
         desc2={
           'With this mobile-friendly clone of Linkedin users can sign in using google OAuth integration and posts articles. The feed loads in real time for all users.'
         }
-        image="/images/linkedin-clone.png"
+        image="/images/linkedin-clone.jpg"
         linkUrl="https://linkedin-clone-6de76.firebaseapp.com/"
         gitUrl="https://github.com/Decibullz/LinkedIn-Clone"
         hostedBy="Google Firebase"
@@ -64,7 +64,7 @@ const Main = () => {
         desc2={
           'With this full E-commerce site users can sign in with email/password or google, browse through products, shop and checkout using the fake CC numbers listed on the checkout page.'
         }
-        image="/images/crwn-clothing.png"
+        image="/images/crwn-clothing.jpg"
         linkUrl="https://cs-crwn-clothing.herokuapp.com/"
         gitUrl="https://github.com/Decibullz/crown-clothing"
         hostedBy="Heroku"
@@ -86,7 +86,7 @@ const Main = () => {
             built using only React.
           </>
         }
-        image="/images/tesla-clone.png"
+        image="/images/tesla-clone.jpg"
         linkUrl="https://tesla-homepage-copy.herokuapp.com/"
         gitUrl="https://github.com/Decibullz/tesla-clone"
         hostedBy="Heroku"
@@ -107,7 +107,7 @@ const Main = () => {
         desc2={
           'This is a massive full stack social media website where all registered users can interact with each other. \n React powers the front end, Node/Express powers the back end.'
         }
-        image="/images/shouts.png"
+        image="/images/shouts.jpg"
         linkUrl="https://socialportfolio-155d8.web.app"
         gitUrl="https://github.com/Decibullz/shouts-frontend"
         hostedBy="Google Firebase"
@@ -127,7 +127,7 @@ const Main = () => {
         desc2={
           'With this website the user can add reviews and rate their favorite movies or TV shows. \n React powers the front end, Ruby on rails powers the backend.'
         }
-        image="/images/couch-critic.png"
+        image="/images/couch-critic.jpg"
         linkUrl="https://couch-critic.herokuapp.com/"
         gitUrl="https://github.com/Decibullz/couch-critic-frontend"
         hostedBy="Heroku"
@@ -149,7 +149,7 @@ const Main = () => {
         desc2={
           'With this website the user can signup and search books. The homepage shows the top 15 NYT books with Amazon links to buy. \n React powers the front end, Node/Express powers the back end.'
         }
-        image="/images/bookit.png"
+        image="/images/bookit.jpg"
         linkUrl="https://blooming-cove-90440.herokuapp.com/"
         gitUrl="https://github.com/Decibullz/Book-it-frontend"
         hostedBy="Heroku"
@@ -169,7 +169,7 @@ const Main = () => {
         desc2={
           'With this website the user can search either by name or color for a multitude of lab tests, with results showing proper test tube color \n Node and Express power the front end with MongoDB serving the database'
         }
-        image="/images/veronicas.png"
+        image="/images/veronicas.jpg"
         linkUrl="https://veronicas-lab-finder.herokuapp.com/"
         gitUrl="https://github.com/Decibullz/veronicas-lab-finder"
         hostedBy="Heroku"
