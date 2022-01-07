@@ -23,8 +23,12 @@ const Project = ({
           <p>{desc2}</p>
           <p>
             Website is hosted with {hostedBy} <br />
+            <a target="_blank" rel="noreferrer" href={linkUrl}>
+              Visit App
+            </a>{' '}
+            |{' '}
             <a target="_blank" rel="noreferrer" href={gitUrl}>
-              Github Repo
+              View Repo
             </a>
           </p>
         </div>
@@ -48,8 +52,12 @@ const Project = ({
           <p>{desc2}</p>
           <p>
             Website is hosted with {hostedBy} <br />
+            <a target="_blank" rel="noreferrer" href={linkUrl}>
+              Visit App
+            </a>{' '}
+            |{' '}
             <a target="_blank" rel="noreferrer" href={gitUrl}>
-              Github Repo
+              View Repo
             </a>
           </p>
         </div>
