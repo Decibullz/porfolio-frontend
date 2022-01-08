@@ -3,7 +3,7 @@ import './Header.css'
 const Header = () => {
   return (
     <div className="hero-image">
-      <img src="/images/banner.jpg" alt="banner image" />
+      <img src="/images/banner.jpg" alt="banner" />
       <div className="header">
         <div className="hero-text-top">
           <h1>Cody Snell</h1>
