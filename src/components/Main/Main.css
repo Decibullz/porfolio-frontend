@@ -10,7 +10,8 @@
 }
 
 .siteName {
-    color: goldenrod
+    margin: 25 0 25 0;
+    color: goldenrod;
 }
 
 .siteImage {
@@ -19,7 +20,8 @@
 
 .desc {
     background: rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 0px 20px goldenrod;
+    box-shadow: 0px 0px 15px goldenrod;
+    margin-top: 15px;
     border-radius: 15px;
     width: 50%;
 }
