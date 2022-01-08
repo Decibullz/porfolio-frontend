@@ -20,7 +20,11 @@ const Header = () => {
           <h3>Available for all your website needs.</h3>
           <h3>
             Email Me:{' '}
-            <a href="mailto:codyjsnell@yahoo.com" target="_blank">
+            <a
+              href="mailto:codyjsnell@yahoo.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Codyjsnell@yahoo.com
             </a>
           </h3>
