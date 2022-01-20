@@ -87,9 +87,9 @@ const Main = () => {
           </>
         }
         image="/images/tesla-clone.jpg"
-        linkUrl="https://tesla-homepage-copy.herokuapp.com/"
+        linkUrl="https://csteslaclone.netlify.app/"
         gitUrl="https://github.com/Decibullz/tesla-clone"
-        hostedBy="Heroku"
+        hostedBy="Netlify"
       />
       <hr />
       <Project
