@@ -65,9 +65,9 @@ const Main = () => {
           'With this full E-commerce site users can sign in with email/password or google, browse through products, shop and checkout using the fake CC numbers listed on the checkout page.'
         }
         image="/images/crwn-clothing.jpg"
-        linkUrl="https://cs-crwn-clothing.herokuapp.com/"
+        linkUrl="https://cscrwnclothing.netlify.app/"
         gitUrl="https://github.com/Decibullz/crown-clothing"
-        hostedBy="Heroku"
+        hostedBy="Netlify"
         inverted
       />
       <hr />
