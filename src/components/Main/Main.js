@@ -1,7 +1,7 @@
 import Project from '../Project/Project.component'
 import Python from '../Python/Python'
-
 import './Main.css'
+import VideoProject from '../VideoProject/VideoProject'
 // eslint-disable-next-line
 {
   /* 
@@ -29,24 +29,23 @@ import './Main.css'
 const Main = () => {
   return (
     <div className="projects">
-      <Project
-        title="Linkedin Clone"
-        desc="React Linkedin Clone built using :"
+      <VideoProject
+        title="Spotify Remote"
+        desc="Functional Spotify remote built using:"
         builtWith={
           <ul>
-            <li>React.JS</li>
-            <li>Redux</li>
-            <li>Google Firebase</li>
-            <li>Styled Components</li>
+            <li>Next.JS</li>
+            <li>Spotify's offical API</li>
+            <li>Tailwind Css</li>
+            <li>Recoil</li>
           </ul>
         }
         desc2={
-          'With this mobile-friendly clone of Linkedin users can sign in using google OAuth integration and posts articles. The feed loads in real time for all users.'
+          "This app allows you to control your Spotify account using Spotify's offical API"
         }
-        image="/images/linkedin-clone.jpg"
-        linkUrl="https://linkedin-clone-6de76.firebaseapp.com/"
-        gitUrl="https://github.com/Decibullz/LinkedIn-Clone"
-        hostedBy="Google Firebase"
+        linkUrl="https://youtu.be/_bFN2wlK2Bc"
+        gitUrl="https://github.com/Decibullz/spotify-nextJS-clone"
+        inverted
       />
       <hr />
       <Project
@@ -68,6 +67,26 @@ const Main = () => {
         linkUrl="https://cscrwnclothing.netlify.app/"
         gitUrl="https://github.com/Decibullz/crown-clothing"
         hostedBy="Netlify"
+      />
+      <hr />
+      <Project
+        title="Linkedin Clone"
+        desc="React Linkedin Clone built using :"
+        builtWith={
+          <ul>
+            <li>React.JS</li>
+            <li>Redux</li>
+            <li>Google Firebase</li>
+            <li>Styled Components</li>
+          </ul>
+        }
+        desc2={
+          'With this mobile-friendly clone of Linkedin users can sign in using google OAuth integration and posts articles. The feed loads in real time for all users.'
+        }
+        image="/images/linkedin-clone.jpg"
+        linkUrl="https://linkedin-clone-6de76.firebaseapp.com/"
+        gitUrl="https://github.com/Decibullz/LinkedIn-Clone"
+        hostedBy="Google Firebase"
         inverted
       />
       <hr />
@@ -174,7 +193,6 @@ const Main = () => {
         gitUrl="https://github.com/Decibullz/veronicas-lab-finder"
         hostedBy="Heroku"
       />
-
       <hr />
       <Python />
       <hr />
