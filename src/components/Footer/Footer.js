@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <div id="footerDiv">
       <div>
-        <div id="form">
+        {/* <div id="form">
           <Contact />
-        </div>
+        </div> */}
         <div id="socialIcons">
           <h1 className="icons">
             <a
