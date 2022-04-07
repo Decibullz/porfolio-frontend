@@ -3,6 +3,13 @@
     align-items: center;
     justify-content: space-around;
 }
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0px;
+
+}
 .site {
     display: flex;
     justify-content: space-around;
@@ -19,10 +26,12 @@
 }
 
 .desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     background: rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 15px goldenrod;
     margin-top: 15px;
-    border-radius: 15px;
     width: 50%;
 }
 
@@ -40,11 +49,23 @@ ul {
 }
 
 li {
+    margin-left: -95px ;
     font-size: 28px;
 }
+.player-wrapper {
+   height: 300px;
+   width: 500px;
+}
+
 
 @media(max-width: 768px) {
+
     .siteImage {
+        width: 150px;
+    }
+
+    .player-wrapper {
+        height: 150px;
         width: 150px;
     }
 
@@ -55,7 +76,11 @@ li {
     li {
         display: flex;
         justify-content: center;
-        margin-right: 60px ;
+        margin-right: -10px ;
         font-size:12px;
+    }
+    .react-player {
+        width: 50%;
+        height: 50%;
     }
 }
