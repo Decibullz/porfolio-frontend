@@ -12,7 +12,7 @@ const Project = ({
   hostedBy,
 }) => {
   return inverted ? (
-    <div>
+    <div className="project">
       <a href={linkUrl} target="_blank" rel="noreferrer">
         <h1 className="siteName">{title}</h1>
       </a>
@@ -38,7 +38,7 @@ const Project = ({
       </div>
     </div>
   ) : (
-    <div>
+    <div className="project">
       <a href={linkUrl} target="_blank" rel="noreferrer">
         <h1 className="siteName">{title}</h1>
       </a>
