@@ -30,6 +30,9 @@ const VideoProject = ({
         </div>
         <div className="player-wrapper">
           <ReactPlayer
+            playing={true}
+            muted={true}
+            loop={true}
             className="react-player"
             url={linkUrl}
             width="100%"
@@ -46,6 +49,9 @@ const VideoProject = ({
       <div className="site">
         <div className="player-wrapper">
           <ReactPlayer
+            playing={true}
+            muted={true}
+            loop={true}
             className="react-player"
             url={linkUrl}
             width="100%"
